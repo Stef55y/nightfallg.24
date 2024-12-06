@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212; /* Dark background */
+    color: #e0e0e0; /* Light text color */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+h1, h2 {
+    color: #ffffff;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-top: 40px;
+}
+
+h2 {
+    font-size: 1.8em;
+    margin-top: 30px;
+}
+
+p, ul {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 0 20px;
+    text-align: justify;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+strong {
+    color: #5c92e4; /* Accent blue color */
+}
+
+a {
+    color: #5c92e4;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Container */
+.container {
+    padding: 20px;
+    background-color: #1e1e1e; /* Darker background for the container */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    margin: 30px auto;
+    max-width: 1000px;
+}
+
+/* Effective Date */
+.effective-date {
+    font-size: 1.1em;
+    color: #b0b0b0; /* Light gray color for date */
+    text-align: center;
+    margin-top: -10px;
+}
+
+/* Footer */
+footer {
+    background-color: #121212; /* Dark background */
+    padding: 20px;
+    text-align: center;
+    color: #b0b0b0; /* Light gray text */
+}
+
+footer a {
+    color: #5c92e4; /* Accent blue */
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Terms and conditions */
+.terms {
+    margin-bottom: 30px;
+}
+
+.terms h2 {
+    color: #5c92e4; /* Accent blue for headings */
+    font-size: 1.5em;
+}
+
+.terms p {
+    color: #e0e0e0; /* Light text */
+    font-size: 1.1em;
+}
+
+/* Bottone per tornare indietro */
+.back-button {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.back-button button {
+    background-color: #5c92e4; /* Accent blue */
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 1.1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.back-button button:hover {
+    background-color: #468dd1; /* Slightly darker blue for hover effect */
+}
+
+/* Privacy Policy / EULA / Terms Page Styling */
+.privacy-policy, .eula, .terms-and-conditions {
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    margin: 30px auto;
+    max-width: 1000px;
+}
+
+.privacy-policy h2, .eula h2, .terms-and-conditions h2 {
+    color: #5c92e4; /* Accent blue for headings */
+    font-size: 1.8em;
+    text-align: center;
+}
+
+.privacy-policy p, .eula p, .terms-and-conditions p {
+    color: #e0e0e0;
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+/* Links in Privacy Policy / EULA */
+.privacy-policy a, .eula a, .terms-and-conditions a {
+    color: #5c92e4;
+    text-decoration: none;
+}
+
+.privacy-policy a:hover, .eula a:hover, .terms-and-conditions a:hover {
+    text-decoration: underline;
+}

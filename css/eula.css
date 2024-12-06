@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #e0e0e0;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+h1, h2 {
+    color: #ffffff;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-top: 40px;
+}
+
+h2 {
+    font-size: 1.8em;
+    margin-top: 30px;
+}
+
+p, ul {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 0 20px;
+    text-align: justify;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+strong {
+    color: #5c92e4;
+}
+
+a {
+    color: #5c92e4;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Container */
+.container {
+    padding: 20px;
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    margin: 30px auto;
+    max-width: 1000px;
+}
+
+/* Effective Date */
+.effective-date {
+    font-size: 1.1em;
+    color: #b0b0b0;
+    text-align: center;
+    margin-top: -10px;
+}
+
+/* Footer */
+footer {
+    background-color: #121212;
+    padding: 20px;
+    text-align: center;
+    color: #b0b0b0;
+}
+
+footer a {
+    color: #5c92e4;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

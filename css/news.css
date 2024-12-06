@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+
+/* Imposta il font per tutto il sito */
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    color: #fff;
+    text-align: center;
+    font-size: 2em;
+    margin-top: 30px;
+}
+
+/* News Section Styling */
+.news {
+    margin: 30px auto;
+    max-width: 1200px;
+    padding: 20px;
+}
+
+.news-article {
+    background-color: #1f1f1f;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.news-article h3 {
+    font-size: 1.6em;
+    color: #5c92e4;
+}
+
+.news-article h3 a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.news-article h3 a:hover {
+    color: #468dd1;
+}
+
+.news-article .date {
+    font-size: 0.9em;
+    color: #aaa;
+    margin-top: 5px;
+}
+
+.news-article p {
+    font-size: 1.1em;
+    color: #e0e0e0;
+}
+
+.news-article a {
+    color: #5c92e4;
+    text-decoration: none;
+}
+
+.news-article a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Section */
+footer {
+    margin-top: 40px;
+    background-color: #1f1f1f;
+    color: #e0e0e0;
+    padding: 20px 0;
+}
+
+footer .footer-content {
+    text-align: center;
+}
+
+footer a {
+    color: #5c92e4;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer .divider {
+    color: #5c92e4;
+}
+
+/* Stilizzazione del bottone Back */
+/* Centra il bottone */
+.back-button {
+    background-color: #5c92e4; /* Colore di sfondo blu */
+    color: #fff; /* Testo bianco */
+    font-size: 1.2em;
+    padding: 10px 20px; /* Spaziatura interna */
+    border: none; /* Nessun bordo */
+    border-radius: 5px; /* Angoli arrotondati */
+    cursor: pointer; /* Cambia il cursore quando sopra il bottone */
+    transition: all 0.3s ease; /* Transizione per gli effetti */
+    display: block; /* Rende il bottone un blocco */
+    margin: 30px auto; /* Centra il bottone orizzontalmente con un margine sopra e sotto */
+}
+
+.back-button:hover {
+    background-color: #468dd1; /* Cambia il colore di sfondo quando ci si passa sopra */
+    transform: scale(1.1); /* Aumenta la dimensione del bottone al passaggio del mouse */
+}
+
+.back-button:active {
+    background-color: #356ab1; /* Cambia il colore quando il bottone viene cliccato */
+    transform: scale(1); /* Ridimensiona il bottone durante il clic */
+}
